@@ -1,5 +1,16 @@
 
-//ADD YOUR FIREBASE LINKS
+var firebaseConfig = {
+  apiKey: "AIzaSyCZMmZhtkhSLKmkQH8kBBOV37cJqUi5-Wo",
+  authDomain: "chatapp-a4a52.firebaseapp.com",
+  databaseURL: "https://chatapp-a4a52-default-rtdb.firebaseio.com",
+  projectId: "chatapp-a4a52",
+  storageBucket: "chatapp-a4a52.appspot.com",
+  messagingSenderId: "944282208425",
+  appId: "1:944282208425:web:177a067f5581a457df81b8"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
   user_name = localStorage.getItem("user_name");
 
